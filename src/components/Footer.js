@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="pb-5 p-10 md:pt-10">
       <div className="container flex flex-col mx-auto">
-        <div className="flex flex-col md:flex-row items-center !justify-between">
+        <div className="flex flex-col items-center">
           <span className="text-gray-900">CuciKereta.my</span>
           <ul className="flex justify-center my-4 md:my-0 w-max mx-auto items-center gap-4">
             {LINKS.map((link, index) => (
